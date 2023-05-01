@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+.main{
+  width: 300px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+ 
+}
+.a{
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin: 10px;
+}
+.b{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 10px;
+}
+.c{
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+  margin: 10px;
+}
+.row{
+  width: 100%;
+  background-color: greenyellow;
+  border: 1px solid red;
+  display: flex;
+}
+.col-1{
+  width:calc(100%/12*1)
+ 
+  
+}
+.col-2{
+  width:calc(100%/12*2)
+}
+.col-3{
+  width:calc(100%/12*3)
+}
+.col-4{
+  width:calc(100%/12*4)
+}
+.col-5{
+  width:calc(100%/12*5)
+}
+.col-6{
+  width:calc(100%/12*6)
+}
+.col-7{
+  width:calc(100%/12*7)
+}
+.col-8{
+  width:calc(100%/12*8)
+}
+.col-9{
+  width:calc(100%/12*9)
+}
+.col-10{
+  width:calc(100%/12*10)
+}
+.col-11{
+  width:calc(100%/12*11)
+}
+.col-12{
+  width:calc(100%/12*12)
+}
+.box{
+  width: 100%;
+  height: auto;
+  background-color: aquamarine;
+ 
+}
+.body{
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: f;
+}
+.header{
+  border: 1px solid red;
+  height: 100px;
+  width: 90%;
+  background-color: aqua;
+  text-align: center;
+  margin: auto;
+
+}
+.left-column{
+ width:calc(100%/12*4);
+ height: 100px;
+ background-color: brown;
+ border: 1px solid black;
+ text-align: center;
+ color: azure;
+}
+.middle-column{
+  width:calc(100%/12*4);
+  height: 100px;
+ background-color: rgb(246, 23, 23);
+ border: 1px solid black;
+ text-align: center;
+ color: azure;
+}
+.right-column{
+  width:calc(100%/12*4);
+  height: 100px;
+ background-color: rgb(50, 42, 165);
+ border: 1px solid black;
+ text-align: center;
+ color: azure;
+}
+.footer{
+  border: 1px solid red;
+  height: 100px;
+  width: 90%;
+  background-color: aqua;
+  text-align: center;
+  margin: auto;
+
+}
+.box3{
+  background-color: aliceblue;
+  width: 250px;
+  height: auto;
+  border: 1px dotted red;
+  display: flex;
+
+}
+.column1{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 5px;
+}
+.column2{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 0, 195);
+  margin: 5px;
+}
+.column3{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(4, 255, 0);
+  margin: 5px;
+}
+.column4{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 0, 0);
+  margin: 5px;
+}
+.box3-first-child{
+  display: flex;
+  flex-direction: column;
+}
+.box3-second-child{
+  display: flex;
+  flex-direction: column-reverse
+}
+.column11{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 5px;
+}
+.column12{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 0, 195);
+  margin: 5px;
+}
+.column13{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(4, 255, 0);
+  margin: 5px;
+}
+.column14{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 0, 0);
+  margin: 5px;
+}
+.box4{
+width: 50%;
+height: 250px;
+background-color: rgb(38, 255, 0);
+display: flex;
+align-items:flex-end
+
+}
+.column115{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 5px;
+  align-self:center
+}
+.column125{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 0, 195);
+  margin: 5px;
+  align-self:center
+}
+.column135{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(4, 255, 0);
+  margin: 5px;
+  align-self:center
+}
+.column145{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(255, 0, 0);
+  margin: 5px;
+  align-self:center
+}
+.box5{
+  margin-top: 10px;
+width: 50%;
+height: 250px;
+background-color: aqua;
+display: flex;
+
+
+}
